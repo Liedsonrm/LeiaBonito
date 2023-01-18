@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+*{
+    background-color: black;
+    color: rgb(130, 133, 136);
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgba(83, 80, 80, 0);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(143, 18, 18);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #410f12;  /* creates padding around scroll thumb */
+  }
+
+
+#content{
+    margin: 50px;
+    width: 80vw;
+}
+
+#content h5{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#content h4{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#content p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
